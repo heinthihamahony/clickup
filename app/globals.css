@@ -2,21 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +24,59 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+
+.bg-pink-purple {
+  background: linear-gradient(50deg,#60a5fa,#8b5cf6,#d946ef);
+}
+
+.bg-pink-purple-2 {
+  background: linear-gradient(150deg,#e81ae8,#ee10f6,#8311ee,#8b5cf6);
+}
+
+.bg-pink-purple-3 {
+  background: linear-gradient(180deg,#299eec,#4661e5,#6827f4,#6510ef);
+}
+
+.bg-pink-purple-4 {
+  background: linear-gradient(180deg,#6510ef,#4661e5,#6827f4,#299eec);
+}
+
+.text-gradient {
+  background: linear-gradient(20deg,#171717,#4f46e5,#8b5cf6,#171717);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-2 {
+  background: linear-gradient(10deg,#1e56cf,#ab46e5,#e844fd,#ef106d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-3 {
+  background: linear-gradient(121deg,#171717,#4f46e5,#e844fd,#ef106d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-4 {
+  background: linear-gradient(50deg,#000,#171717,#60a5fa,#4f46e5,#e844fd,#ef106d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-5 {
+  background: linear-gradient(160deg,#25c8ed,#60affa,#3a81b4,#e844fd,#000,#000,#171717);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-img {
+  background-image: url('https://clickup.com/assets/home-test/AI-powered-productivity.png');
+}
+
+.text-dark-purple {
+  color: #b2add2;
 }
